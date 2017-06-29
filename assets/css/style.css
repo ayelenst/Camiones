@@ -1476,14 +1476,14 @@ font-weight: normal;
 
 .partner { text-align: center }
 .partner img {
-    border: 1px solid rgba(255, 255, 255, 0.8);
+   
     padding: 10px;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
     -webkit-transition: all 0.2s ease 0s;
     transition: all 0.2s ease 0s;
 }
 .partner img:hover {
-    border: 1px solid #fff;
+    
     opacity: 1;
 
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
