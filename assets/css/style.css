@@ -236,6 +236,7 @@ h2.section-title-white {
 .navbar-default .navbar-nav>.active>a:focus {
     color: #b71918 !important;
     background-color: transparent;
+	padding-bottom: 25px;
 }
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
@@ -243,9 +244,9 @@ h2.section-title-white {
     color: #b71918 !important;
     background-color: transparent;
 }
-.navbar-brand { padding: 0px }
+.navbar-brand { padding: 0 }
 .navbar-brand img {
-    width: 120px;
+    width: 121px;
     margin-left: 10px;
 }
 @media only screen and (max-width:768px) { 
@@ -255,7 +256,7 @@ h2.section-title-white {
 .navbar-default .navbar-form { border-color: #fff }
 .menu-top li a {
     color: #333 !important;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
 }
