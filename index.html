@@ -271,17 +271,22 @@
 							<form id="contact-form" method="post" enctype="multipart/form-data">
 								<div class="row">
 									<div class="form-group col-md-12">
-										<input type="text" name="name" class="form-control" id="first-name" placeholder="Name" required="required">
+										<input type="text" name="Nombre" class="form-control" id="firstname" placeholder="Name" required="required">
 									</div>
 									<div class="form-group col-md-12">
-										<input type="email" name="email" class="form-control" id="email" placeholder="Email" required="required">
+										<input type="email" name="Mail" class="form-control" id="email" placeholder="Email" required="required">
 									</div>
 									<div class="form-group col-md-12">
-										<textarea rows="6" name="message" class="form-control" id="description" placeholder="Your Message" required="required"></textarea>
+										<input type="text" name="Asunto" class="form-control" id="subject" placeholder="Asunto" required="required">
+									</div>
+									
+									<div class="form-group col-md-12">
+										<textarea rows="6" name="Mensaje" class="form-control" id="description" placeholder="Your Message" required="required"></textarea>
 									</div>
 									<div class="col-md-12">
 										<div class="actions">
-											<input type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Submit Your Message!" />
+											<input onclick="LPAWS.sendToTopic(); return false;" type="button" 
+											value="Enviar mensaje" id="submitButton" class="btn btn-lg btn-contact-bg" title="Enviar mensaje" />
 										</div>
 									</div>
 								</div>
@@ -358,5 +363,6 @@
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuU_0_uLMnFM-2oWod_fzC0atPZj7dHlU"></script>
 		<!-- scripts js -->
 			<script src="assets/js/scripts.js"></script>
+			 <script src="assets/js/aws-sdk.min.js"></script>
     </body>
 </html>
