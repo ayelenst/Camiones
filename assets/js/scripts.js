@@ -102,6 +102,17 @@ Version      : 1.0
 		  itemsDesktopSmall : [979,3]
 		});
 		/*END PARTNER LOGO*/
+		
+			/*START PARTNER LOGO*/
+		$('.trucks').owlCarousel({
+		  autoPlay: 3000, //Set AutoPlay to 3 seconds
+		  items : 4,
+		  itemsDesktop : [1199,3],
+		  itemsDesktopSmall : [979,3]
+		});
+		/*END PARTNER LOGO*/
+		
+		
 	
 		/*START CONTACT MAP JS*/
 		function initialize() {
