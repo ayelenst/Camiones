@@ -178,11 +178,147 @@ Version      : 1.0
 		}
 
 		
+		var img = document.getElementById('truck-img7');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		
+				
+		var img = document.getElementById('truck-img8');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		
+				
+		var img = document.getElementById('truck-img9');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		
+				
+		var img = document.getElementById('truck-img10');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		
+				
+		var img = document.getElementById('truck-img11');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		
+				
+		var img = document.getElementById('truck-img12');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
 		
 		
+		var img = document.getElementById('truck-img13');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+				
+		var img = document.getElementById('truck-img14');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
 		
+				
+		var img = document.getElementById('truck-img15');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+				
+				
+		var img = document.getElementById('truck-img16');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
 		
+				
+		var img = document.getElementById('truck-img17');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
 		
+				
+		var img = document.getElementById('truck-img18');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		
+				
+		var img = document.getElementById('truck-img19');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		
+				
+		var img = document.getElementById('truck-img20');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		
+				
+		var img = document.getElementById('truck-img21');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		
+				
+		var img = document.getElementById('truck-img22');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		
+				
+		var img = document.getElementById('truck-img23');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		
+				
+		var img = document.getElementById('truck-img24');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
 
 		// Get the <span> element that closes the modal
 		var span = document.getElementsByClassName("close")[0];
@@ -191,6 +327,8 @@ Version      : 1.0
 		span.onclick = function() { 
 		  modal.style.display = "none";
 		}
+		
+		
 
 	}); 	
 		
