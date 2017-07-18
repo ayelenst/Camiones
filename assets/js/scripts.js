@@ -319,6 +319,20 @@ Version      : 1.0
 			modalImg.src = this.src;
 			captionText.innerHTML = this.alt;
 		}
+		
+				var img = document.getElementById('truck-img25');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
+		
+				var img = document.getElementById('truck-img26');
+		img.onclick = function(){
+			modal.style.display = "block";
+			modalImg.src = this.src;
+			captionText.innerHTML = this.alt;
+		}
 
 		
 		// Get the <span> element that closes the modal
